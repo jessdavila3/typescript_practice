@@ -28,6 +28,4 @@ function addNewName() {
     let name = new Person (getFirstName(), getLastName());
     li.appendChild(document.createTextNode(addName(name)));
     nameList.appendChild(li);
-    console.log(getFirstName());
-    console.log(getLastName());
 }
